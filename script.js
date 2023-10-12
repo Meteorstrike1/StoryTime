@@ -21,8 +21,8 @@ const pages = [
     },
     {
       identifier: "0002",
-      story: `<p>It was a dark and stormy night... The rain was falling heavily and the howling wind dampened only by the trees. You stumble through the forest, clothes soaked through, and shivering in the bitter cold.</p>
-      <p>As you make your way you spot a light in the distance. Determined to find proper shelter you quicken your pace. Soon you emerge from the forest, standing in front of a large old house.</p>`,
+      story: `<p>It is a dark and stormy night... The rain is falling heavily, the howling wind dampened only by the trees. You stumble through the forest, clothes soaked through, and shivering in the bitter cold.</p>
+      <p>There is a light in the distance. Determined to find proper shelter you quicken your pace. Soon you emerge from the forest, standing in front of a large old house.</p>`,
       options: [
         {
           id: "1",
@@ -287,7 +287,7 @@ const pages = [
     },
     {
       identifier: "0016",
-      story: `<p>As you walk into the shed you step onto a rake, knocking garden tools everywhere, and receive a large whack to your head. The shed looks full of junk and unstable. What do you do next?</p><br>`,
+      story: `<p>As you walk into the shed you step onto a rake and receive a large whack to your head. Garden tools go everywhere. As much as you would love to spend the night in a spooky shed, it is full of junk and looks unstable. What do you do next?</p><br>`,
       options: [
         {
           id: "30",
@@ -351,7 +351,7 @@ const pages = [
         },
         {
           id: "36",
-          displayText: "Sit on the rocking chair",
+          displayText: "Sit in the rocking chair",
           isProgressOption: true,
           targetPage: "0022"
         },
@@ -369,7 +369,7 @@ const pages = [
       options: [
         {
           id: "38",
-          displayText: "Sit on the rocking chair",
+          displayText: "Sit in the rocking chair",
           isProgressOption: true,
           targetPage: "0022"
         },
@@ -383,7 +383,7 @@ const pages = [
     },
     {
       identifier: "0022",
-      story: `<p>You sit on the rocking chair. It is so relaxing you could sleep in this... But you aren't quite feeling safe enough to shut your eyes at the moment. What do you do next?</p><br>`,
+      story: `<p>You sit in the rocking chair. It is so relaxing you could sleep in this... But you aren't quite feeling safe enough to shut your eyes at the moment. What do you do next?</p><br>`,
       options: [
         {
           id: "40",
@@ -401,7 +401,7 @@ const pages = [
     },
     {
       identifier: "0023",
-      story: `<p>You have a look at the curious looking puzzle box. There are engravings of animals on the outside, and it looks like you can rotate the carvings to unlock it. It gives you a sense of danger, like there may be dangerous consequences if you get it wrong. What order do you want to try?</p><br>`,
+      story: `<p>You have a look at the curious looking puzzle box. There are engravings of animals on the outside, and it looks like you can rotate the carvings to unlock it. It gives you a sense of dread, like there may be dangerous consequences if you get it wrong. What order do you want to try?</p><br>`,
       options: [
         {
           id: "41",
@@ -490,7 +490,7 @@ const pages = [
     },
     {
       identifier: "0028",
-      story: `<p>There is only one combination left to try. You count yourself lucky you haven't made that many mistakes along the way</p><br>`,
+      story: `<p>There is only one combination left to try. You count yourself lucky you haven't made that many mistakes along the way.</p><br>`,
       options: [
         {
           id: "51",
